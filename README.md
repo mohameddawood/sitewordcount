@@ -2,7 +2,7 @@
 converter currency app
 
 #This is Currency Convert app 
-  - omplemented in Kotlin
+  - Implemented in Kotlin
   - MVVM as an archticutre patter
   - Koin as DI tool
   - Retrofit and Rxjava
