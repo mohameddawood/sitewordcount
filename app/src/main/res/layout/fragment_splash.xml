@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        android:id="@+id/ll_splash_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/iv_splash_logo"
+            android:layout_width="@dimen/dp137w"
+            android:layout_height="@dimen/dp137h"
+            android:src="@drawable/ic_baseline_monetization_on_24"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+</layout>
