@@ -48,6 +48,7 @@ class ConvertRateSheet(val rate: String,val to:String,val value: Double) : Botto
         request.to = to
         convertSheetBinding.tvNewRateValue.text = value.toString()
         convertSheetBinding.tvNewRateName.text = to
+        convertSheetBinding.tvBaseRateName.text = rate
         convertSheetBinding.request = request
     }
 
