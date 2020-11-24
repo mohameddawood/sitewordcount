@@ -4,7 +4,7 @@ package com.mctech.single_activity.presentation
 private fun recursiveFibonacci(fabNumber: Int): Int {
     if (fabNumber <= 1)
         return fabNumber;
-    return recursiveFabonacci(fabNumber - 1) + recursiveFabonacci(fabNumber - 2);
+    return recursiveFibonacci(fabNumber - 1) + recursiveFibonacci(fabNumber - 2);
 }
 
 private fun iterativeFibonacci(fabNumber: Int): Int {
