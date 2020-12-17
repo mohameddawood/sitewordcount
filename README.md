@@ -1,4 +1,4 @@
-#Word Count
+# Words Count app
 
 * Implemented in Kotlin
 * MVVM 
