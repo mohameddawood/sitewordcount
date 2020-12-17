@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.instabug.library:instabug-core:10.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dee10068d18dc1d6bda33d0ca9e2bb3/jetified-instabug-core-10.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dee10068d18dc1d6bda33d0ca9e2bb3/jetified-instabug-core-10.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dee10068d18dc1d6bda33d0ca9e2bb3/jetified-instabug-core-10.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dee10068d18dc1d6bda33d0ca9e2bb3/jetified-instabug-core-10.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-core/10.1.0/18f1e14cc84e6cc0ad7b0d160922781e8ce74572/instabug-core-10.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-core/10.1.0/75c50ade4b3c8887af1e1556759c1739cdfce907/instabug-core-10.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

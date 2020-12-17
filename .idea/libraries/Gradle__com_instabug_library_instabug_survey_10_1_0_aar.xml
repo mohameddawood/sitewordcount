@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.instabug.library:instabug-survey:10.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b97f35283740bcc42baac9092fbf86b/jetified-instabug-survey-10.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b97f35283740bcc42baac9092fbf86b/jetified-instabug-survey-10.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b97f35283740bcc42baac9092fbf86b/jetified-instabug-survey-10.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b97f35283740bcc42baac9092fbf86b/jetified-instabug-survey-10.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-survey/10.1.0/44ad94a02e2c617285e724f02d86c9c6e5a44e20/instabug-survey-10.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-survey/10.1.0/44ad94a02e2c617285e724f02d86c9c6e5a44e20/instabug-survey-10.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

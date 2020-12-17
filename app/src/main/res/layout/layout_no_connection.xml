@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
 
         <variable
             name="clickListener"
-            type="com.app.converter.ui.resource_layout.no_connection.NoConnectionSheet" />
+            type="com.app.instawordcount.ui.resource_layout.no_connection.NoConnectionSheet" />
     </data>
 
     <RelativeLayout
@@ -21,7 +20,8 @@
             android:layout_height="@dimen/dp75h"
             android:padding="@dimen/dp16w"
             android:src="@drawable/ic_close_white"
-            android:layout_alignParentEnd="true"/>
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/close" />
 
 
         <com.airbnb.lottie.LottieAnimationView

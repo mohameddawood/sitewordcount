@@ -1,27 +1,6 @@
 <resources>
-    <string name="app_name">Currency converter</string>
-
-
-
-
-
-    <!--Bottom navigation-->
-    <string name="bottom_navigation_home">Home</string>
-    <string name="bottom_navigation_more">More</string>
-    <string name="bottom_navigation_notifications">Notifications</string>
-    <string name="bottom_navigation_services">Services</string>
-
-
-
-
+    <string name="app_name">InstaBugWords</string>
     <string name="error_no_connection">Oops , there\'s no Network connection</string>
-    <string name="error_message_title">Error!</string>
-    <string name="success_message_title">Success</string>
-    <string name="title_activity_home">MainActivity</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-
-
-
+    <string name="google_maps_key">AIzaSyBa_gbnaVSTZ0LWqj3tl0-pLtMZErbUr8E</string>
+    <string name="progressColor">#0effffff</string>
 </resources>

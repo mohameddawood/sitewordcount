@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="word"
+            type="com.app.instawordcount.manager.db.Word" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:padding="@dimen/dp24w">
+
+
+        <TextView
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv_word_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text='@{word.word??""}' />
+
+        <TextView
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/colorRed"
+            android:id="@+id/tv_word_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text='@{word.count+""??""}' />
+
+    </RelativeLayout>
+</layout>
