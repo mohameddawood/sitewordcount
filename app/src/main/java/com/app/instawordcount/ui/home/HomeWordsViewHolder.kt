@@ -19,10 +19,7 @@ class HomeWordsViewHolder(private val binding: ItemWrodsCountBinding) :
         fun from(parent: ViewGroup): HomeWordsViewHolder {
             val layoutInflater = LayoutInflater.from(parent.context)
             val binding = ItemWrodsCountBinding.inflate(layoutInflater, parent, false)
-
             return HomeWordsViewHolder(binding)
         }
-
-
     }
 }

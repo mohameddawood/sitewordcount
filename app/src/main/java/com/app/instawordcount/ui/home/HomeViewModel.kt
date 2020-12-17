@@ -1,5 +1,7 @@
 package com.app.instawordcount.ui.home
 
+import android.text.Html
+import androidx.core.text.HtmlCompat
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
@@ -56,6 +58,7 @@ class HomeViewModel : BaseViewModel(), KoinComponent {
         if (response.isNotEmpty()) {
             _observeWords.value =
                 setWordsMap((Jsoup.parse(response) as Document).text())
+
         } else {
             showLoadingProcess.value = false
             viewModelScope.launch {

@@ -10,13 +10,13 @@ import java.net.URL
 
 class HomeRepository : KoinComponent {
 
-    suspend fun fetchInstaBugWebSiteWords(myURL: String): String {
+    suspend fun fetchInstaBugWebSiteWords(siteUrl: String): String {
         return withContext(Dispatchers.IO) {
             val inputStream: InputStream
-            val url = URL(myURL)
-            val conn: HttpURLConnection = url.openConnection() as HttpURLConnection
-            conn.connect()
-            inputStream = conn.inputStream
+            val url = URL(siteUrl)
+            val connection = url.openConnection() as HttpURLConnection
+            connection.connect()
+            inputStream = connection.inputStream
             inputStream?.convertInputStreamToString() ?: ""
         }
     }
