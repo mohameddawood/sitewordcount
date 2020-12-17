@@ -6,6 +6,7 @@
 * Data/View Binding
 * RoomDatabase
 * Repository desing pattern
-* kotli Coroutines
+* kotlin Coroutines
 * lottie animation
 * Jsoup for HTML
+* Native Network Request
